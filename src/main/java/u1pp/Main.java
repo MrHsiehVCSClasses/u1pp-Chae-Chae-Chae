@@ -16,14 +16,14 @@ public class Main
      * Should return a double that is mathematically accurate. 
      */
     public static double averageOfThree(int a, int b, int c) {
-    	return (a + b + c) / 3;
+    	return (double) (a + b + c) / 3;
     }
     
     /**
      * Prints a 1-line greeting based on the name given
      */
     public static void printGreeting(String name) {
-    	System.out.println("hello");
+    	System.out.print("Hello ");
     	System.out.println(name);
     }
     
